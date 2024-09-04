@@ -28,7 +28,6 @@
   width: 100%;
   height: 300px; /* Adjust the height as needed */
   margin: 0 auto;
-  backdrop-filter: blur(25px);
   perspective: 1000px; /* This creates a 3D effect */
 }
 
@@ -37,8 +36,13 @@
   height: 100%;
   border-radius: 50px;
   overflow: hidden;
+  backdrop-filter: blur(15px);
   backface-visibility: hidden;
   transition: transform 0.6s; /* Smooth transition for the flip effect */
+}
+
+a{
+  color: white;
 }
 
 .card-front,
@@ -53,6 +57,11 @@
   position: absolute;
   width: 100%;
   height: 100%; /* Ensure both sides take full height */
+}
+
+.__knowmore__{
+  text-align: left;
+  padding: 0 10px;
 }
 
 .card-front {
@@ -130,6 +139,11 @@
   border-radius: 50px;
 }
 
+@media (max-width: 768px) {
+  .__infor_sse span {
+    display: none;
+  }
+}
 
 
 .___skills___list{
@@ -137,6 +151,7 @@
   justify-content: center;
   gap: 10px;
   flex-wrap: wrap;
+  width: 90%;
 }
 
 .___skills___list div{
@@ -156,4 +171,116 @@
   background: linear-gradient(to bottom right, rgb(5, 0, 152), rgb(12, 0, 179), rgb(0, 25, 127), rgb(0, 3, 81));
   padding: 5px;
   border-radius: 5px;
+}
+
+
+.__projects__ {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; /* Space between items */
+  padding: 10px; /* Padding around the container */
+  background-color: #010127; /* Dark background color */
+  color: white; /* Text color for visibility */
+}
+
+.__usedlanguages__{
+  display: flex;
+  gap: 10px;
+}
+
+
+.fulldetails-all,
+.___githubinit__{
+  background: linear-gradient(to bottom right, rgb(0, 5, 154), rgb(18, 0, 108), rgb(1, 7, 93), rgb(7, 1, 65));
+  padding: 10px;
+  text-align: center;
+  border-radius: 500px;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.title-al{
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.fulldetails-all {
+  padding: 12.7px;
+}
+
+.__jmd__{
+  width: 20px;
+}
+
+.__mmmj__{
+  background-color: white;
+  width: fit-content;
+  padding: 4px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 500px;
+}
+
+.___githubinit__ img{
+  background-color: white;
+  padding: 5px;
+  border-radius: 500px;
+}
+
+
+.__projects__ > div {
+  width: 30%;
+  background: linear-gradient(to bottom right, rgb(0, 5, 78), rgb(0, 0, 81), rgb(0, 9, 102), rgb(12, 0, 143), rgb(15, 0, 100)); /* Slightly lighter dark background for items */
+  padding: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+@media (max-width: 768px) {
+  .__projects__ > div {
+    width: 95%;
+  }
+}
+
+.project-item {
+  margin-bottom: 10px; /* Space between project-item and project-link */
+}
+
+.project-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between image and text */
+}
+
+.project-link img {
+  width: 20px; /* Adjust size as needed */
+  height: 20px;
+}
+
+.project-link div {
+  gap: 10px;
+  width: 50%;
+}
+
+.project-link a {
+  color: white;
+  text-decoration: none; /* Removes underline from links */
+  display: flex;
+  align-items: center;
+}
+
+.project-link span {
+  margin-left: 5px; /* Space between icon and text */
 }
