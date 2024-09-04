@@ -21,7 +21,7 @@ function App() {
             <div className={`contact-card-container ${isFlipped ? 'flipped' : ''}`}>
               <div className='contact-card card-front'>
                 <h1>Elias Luzwehimana</h1>
-                <span className='__helo__'>loramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloram</span>
+                <span className='__helllo__'>loramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloramloram</span>
                 
                 <div className='__infor_sse'>
                   <div>
