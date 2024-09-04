@@ -45,14 +45,66 @@ function App() {
 
               <div className='contact-card card-back'>
                 <h1>Skills List</h1>
-                <p>Here is a list of skills:</p>
-                <ul>
-                  <li>JavaScript</li>
-                  <li>React</li>
-                  <li>CSS</li>
-                  <li>HTML</li>
-                  {/* Add more skills as needed */}
-                </ul>
+                <p>Skills that i have learnt over 4 years</p>
+
+                <div className='___skills___list'>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/303206/javascript-logo.svg' alt='' />
+                    <span>JavaScript</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/452091/python.svg' alt='' />
+                    <span>Python</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/374032/reactjs.svg' alt='' />
+                    <span>React.Js</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/373554/django.svg' alt='' />
+                    <span>Django-PY</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/530439/api-interface.svg' alt='' />
+                    <span>REST API</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/448268/aws-ec2.svg' alt='' />
+                    <span>EC2 AWS</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/303301/postgresql-logo.svg' alt='' />
+                    <span>PostgreSQL AWS</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/353735/firebase.svg' alt='' />
+                    <span>Firebase</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/303683/heroku-logo.svg' alt='' />
+                    <span>Heroku</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/353785/gitlab.svg' alt='' />
+                    <span>CI/CD</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/452210/git.svg' alt='' />
+                    <span>GIT</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/303235/salesforce-2-logo.svg' alt='' />
+                    <span>Salesforce</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/452228/html-5.svg' alt='' />
+                    <span>HTML</span>
+                  </div>
+                  <div>
+                    <img src='https://www.svgrepo.com/show/374118/tailwind.svg' alt='' />
+                    <span>CSS/Tailwind</span>
+                  </div>
+                </div>
               </div>
             </div>
 
