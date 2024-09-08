@@ -145,10 +145,13 @@ a{
   }
 }
 
+#__profile_data__fronte{
+  padding: 10px 10px 10px 10px;
+}
 
 .___skills___list{
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 10px;
   flex-wrap: wrap;
   width: 90%;
@@ -179,10 +182,14 @@ a{
   margin-top: 50px;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px; /* Space between items */
-  padding: 10px; /* Padding around the container */
-  background-color: #010127; /* Dark background color */
-  color: white; /* Text color for visibility */
+  gap: 20px; 
+  padding: 10px; 
+  background-color: #010127; 
+  color: white; 
+}
+
+.__projects__ div{
+  height: fit-content;
 }
 
 .__usedlanguages__{
@@ -283,4 +290,72 @@ a{
 
 .project-link span {
   margin-left: 5px; /* Space between icon and text */
+}
+
+
+
+
+
+
+
+
+
+
+
+.contact-card-container {
+  position: relative;
+  perspective: 1000px;
+}
+
+.contact-card {
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out;
+}
+
+.contact-card.card-front,
+.contact-card.card-back {
+  width: 100%;
+  height: 100%;
+}
+
+.contact-card-container.flipped .contact-card.card-front {
+  transform: rotateY(180deg);
+}
+
+.contact-card-container.flipped .contact-card.card-back {
+  transform: rotateY(0deg);
+}
+
+.contact-card.card-back {
+  transform: rotateY(180deg);
+}
+
+.inner-scroll {
+  height: 200px;
+  overflow-y: auto;
+  padding-right: 10px;
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+.main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.__profile__img {
+  border-radius: 50%;
+}
+
+.__projects__ {
+  margin-top: 20px;
+}
+
+.___holder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
