@@ -30,19 +30,19 @@ function App() {
 
   const free_api_sport_data_description = `In January 2024, I developed a Free Sports Data API using Python to provide real-time and historical sports data for developers and sports enthusiasts. The API was designed to be both comprehensive and user-friendly, allowing easy access to a wide range of sports data, including match schedules, results, and player statistics.
 
-To build the API, I utilized Flask for deploying and managing the API endpoints, along with Flask-RESTful for creating a structured and scalable REST API. Requests was used to fetch live data from external sports data sources, ensuring that users receive up-to-date information.
+  To build the API, I utilized Flask for deploying and managing the API endpoints, along with Flask-RESTful for creating a structured and scalable REST API. Requests was used to fetch live data from external sports data sources, ensuring that users receive up-to-date information.
 
-For data processing, I integrated Pandas to clean, structure, and organize the sports data efficiently, while SQLAlchemy was employed to handle database connections and data storage. This ensured that both real-time and historical data could be managed seamlessly.
+  For data processing, I integrated Pandas to clean, structure, and organize the sports data efficiently, while SQLAlchemy was employed to handle database connections and data storage. This ensured that both real-time and historical data could be managed seamlessly.
 
-The API responses were formatted in JSON for easy consumption by users, and I implemented Datetime for managing time-related data such as match schedules. Finally, Pytest was used to rigorously test the API functionality and ensure reliable performance.`;
+  The API responses were formatted in JSON for easy consumption by users, and I implemented Datetime for managing time-related data such as match schedules. Finally, Pytest was used to rigorously test the API functionality and ensure reliable performance.`;
 
   const kluret_desciption = `From February 2024 to September 2024, I worked as a Software Engineer and co-founder at Kluret AB, where I was instrumental in developing Kluret AI, an advanced product search engine specifically designed for the Swedish market. The platform helps users efficiently find products across the Swedish web, providing a user-friendly and reliable search experience.
 
-I led the development of the backend, frontend, and database infrastructure. I built a full-stack architecture to support the platform, ensuring the seamless integration of all components. The frontend was designed to offer an intuitive user interface, while the backend ensured secure, efficient data handling and scalability.
+  I led the development of the backend, frontend, and database infrastructure. I built a full-stack architecture to support the platform, ensuring the seamless integration of all components. The frontend was designed to offer an intuitive user interface, while the backend ensured secure, efficient data handling and scalability.
 
-A key aspect of the project involved prompt tuning to optimize the AI's performance in responding to user queries. This allowed Kluret AI to provide highly accurate and relevant search results based on user inputs. I also developed a robust database system that handled the storage and processing of large datasets, ensuring that the platform could manage real-time product searches effectively.
+  A key aspect of the project involved prompt tuning to optimize the AI's performance in responding to user queries. This allowed Kluret AI to provide highly accurate and relevant search results based on user inputs. I also developed a robust database system that handled the storage and processing of large datasets, ensuring that the platform could manage real-time product searches effectively.
 
-Throughout the project, I collaborated with my co-founder to set the technical strategy and long-term vision for Kluret AI. We successfully launched Version 1 of the platform, establishing Kluret as an innovative product search engine in Sweden, while continuously refining the system for improved performance and scalability.`;
+  Throughout the project, I collaborated with my co-founder to set the technical strategy and long-term vision for Kluret AI. We successfully launched Version 1 of the platform, establishing Kluret as an innovative product search engine in Sweden, while continuously refining the system for improved performance and scalability.`;
 
   return (
     <>
