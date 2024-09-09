@@ -45,6 +45,7 @@ function App() {
   Throughout the project, I collaborated with my co-founder to set the technical strategy and long-term vision for Kluret AI. We successfully launched Version 1 of the platform, establishing Kluret as an innovative product search engine in Sweden, while continuously refining the system for improved performance and scalability.`;
 
   return (
+
     <>
       <div>
         <div className='main-div'>
@@ -62,6 +63,7 @@ function App() {
               <div className='contact-card card-front inner-scroll'>
                 <br />
                 <h1>Elias Luzwehimana</h1>
+                
                 <div className='__knowmore__'>
                   <div>
                     <span><strong>Education:</strong> Chas Academy</span>
@@ -211,6 +213,7 @@ function App() {
                     <img className='__jmd__' src='https://www.svgrepo.com/show/530439/api-interface.svg' alt='API' />
                   </div>
                 </div>
+
                 <p>
                   {visibleProjects[index]
                     ? index === 0
@@ -227,6 +230,7 @@ function App() {
                         10
                       )}
                 </p>
+                
               </div>
               <div className='project-link'>
                 <div>
